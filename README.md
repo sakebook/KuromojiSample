@@ -3,11 +3,10 @@
 ![image](https://raw.githubusercontent.com/sakebook/KuromojiSample/master/art/demo.gif)
 
 ## Environment
- * Android Studio 2.1.1
+ * Android Studio 2.3.3
  * Devices
-    * Genymotion: OS 5.0 
-    * Nexus 6: OS 6.0.1 
- * Kotlin 1.0.1-2
+    * Nexus 6: OS 7.1.1 
+ * Kotlin 1.1.51
  * Kuromoji: kuromoji-ipadic-1.0-SNAPSHOT
 
 ## Library repository
