@@ -22,8 +22,8 @@ val tokenizer = Tokenizer.Builder().mode(TokenizerBase.Mode.NORMAL).build()
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val editText = findViewById(R.id.edit_text) as EditText
-        val text = findViewById(R.id.text) as TextView
+        val editText: EditText = findViewById(R.id.edit_text)
+        val text: TextView = findViewById(R.id.text)
         editText.addTextChangedListener(object : TextWatcher {
             override fun onTextChanged(s: CharSequence, start: Int, before: Int, count: Int) {
             }
